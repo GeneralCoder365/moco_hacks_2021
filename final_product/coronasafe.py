@@ -85,7 +85,7 @@ class Page1(tk.Frame):
         canvas.grid(columnspan=18,rowspan=9)
  
         #Title
-        Title_lbl2 = tk.Label(self, text = "Global 19", bg = "#0F111A", fg = "white")
+        Title_lbl2 = tk.Label(self, text = "Corona-Safe", bg = "#0F111A", fg = "white")
         Title_lbl2.grid(columnspan = 8, rowspan = 2, column = 5, row = 1)
  
         #State Cases
@@ -330,15 +330,15 @@ class Page1(tk.Frame):
             if risk_lvl == "low":
                 #Severity level Button
                 d_lvl = tk.Button(self, width = 20, bg = "green", command = lambda:get_adress())
-                d_lvl.grid(columnspan = 4, column = 7, row = 7)
+                d_lvl.grid(columnspan = 4, column = 9, row = 7)
             elif risk_lvl == "medium":
                 #Severity level Button
                 d_lvl = tk.Button(self, width = 20, bg = "orange", command = lambda:get_adress())
-                d_lvl.grid(columnspan = 4, column = 7, row = 7)
+                d_lvl.grid(columnspan = 4, column = 8, row = 7)
             else:
                 #Severity level Button
                 d_lvl = tk.Button(self, width = 20, bg = "red", command = lambda:get_adress())
-                d_lvl.grid(columnspan = 4, column = 7, row = 8)
+                d_lvl.grid(columnspan = 4, column = 8, row = 8)
  
  
         #Severity Level Button
