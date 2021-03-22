@@ -1,6 +1,8 @@
 # **moco_hacks_2021**
 # **Corona-Safe**
 #
+# [**PROJECT BREAKDOWN**](https://docs.google.com/presentation/d/17h2YCBYd2IV8gmgW2EP3E4Fs_UIJhe6aSL9WO3uOtms/edit?usp=sharing)
+#
 # **FILE STRUCTURE BREAKDOWN**
 1. Final Product:
     - `final_product` --> `coronasafe.py`
